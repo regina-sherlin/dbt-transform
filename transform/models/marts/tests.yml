@@ -1,0 +1,26 @@
+version: 2
+models:
+  - name: fct_daily_sales
+    columns:
+      - name: TRANSACTION_DATE
+        tests: 
+          - unique
+          - not_null
+  - name: dim_products
+    columns:
+      - name: ITEM
+        tests:
+          - unique
+          - not_null
+  - name: dim_categories
+    columns:
+      - name: CATEGORY 
+        tests:
+          - unique
+          - not_null
+  - name: fct_category_sales
+    columns:
+      - name: CATEGORY
+        tests: 
+          - unique
+          - not_null

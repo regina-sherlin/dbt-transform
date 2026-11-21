@@ -1,0 +1,5 @@
+PAYMENT_METHOD,PAYMENT_CATEGORY,IS_DIGITAL,HAS_PROCESSING_FEE
+Cash,Physical,false,false
+Credit Card,Card,true,true
+Digital Wallet,Wallet,true,true
+Unknown,Unclassified,false,false

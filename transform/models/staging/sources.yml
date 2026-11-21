@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: src
+    database: RETAIL_DB
+    schema: RAW
+    tables:
+      - name: RETAIL_TB

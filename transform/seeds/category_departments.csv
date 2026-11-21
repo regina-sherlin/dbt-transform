@@ -1,0 +1,9 @@
+CATEGORY,DEPARTMENT,IS_ESSENTIAL_GOODS
+Food,Consumables,true
+Beverages,Consumables,true
+Patisserie,Consumables,false
+Milk Products,Consumables,true
+Butchers,Consumables,true
+Electric household essentials,Home & Living,true
+Furniture,Home & Living,false
+Computers and electric accessories,Electronics,false
