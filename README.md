@@ -6,7 +6,7 @@ An end-to-end ELT data modeling and automated reconciliation pipeline built with
 
 ## Architecture & Data Lineage
 
-![dbt Lineage Graph](docs/lineage_graph.png)
+<img width="1841" height="706" alt="dbt-dag (1)" src="https://github.com/user-attachments/assets/f99b859b-be96-48dd-b723-5a490c5bbd05" />
 
 
 ### Pipeline Layers
