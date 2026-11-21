@@ -8,7 +8,6 @@ An end-to-end ELT data modeling and automated reconciliation pipeline built with
 
 ![dbt Lineage Graph](docs/lineage_graph.png)
 
-> *(Tip: Save your dbt docs DAG screenshot inside a `docs/` folder as `lineage_graph.png` so it renders automatically on GitHub!)*
 
 ### Pipeline Layers
 1. **Raw Ingestion (`RETAIL_DB.RAW`):** Untouched source transactions (`RETAIL_TB`) loaded from raw CSV files and registered via `sources.yml`.
